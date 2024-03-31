@@ -1,0 +1,51 @@
+.wrap {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  height: 100vh;
+}
+
+.count-wrap {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.count {
+  text-align: center;
+  width: 1em;
+  margin-left: 2em;
+  margin-right: 2em;
+}
+
+.increase-btn {
+  display: inline;
+  width: 5em;
+  height: 3em;
+  border: none;
+  border-radius: 1em;
+  background-color: black;
+  color: white;
+}
+
+.decrease-btn {
+  display: inline;
+  width: 5em;
+  height: 3em;
+  border: none;
+  border-radius: 1em;
+  background-color: black;
+  color: white;
+}
+
+.login-btn {
+  display: inline;
+padding: 0.5em 5.5em;
+  border: 1px solid black;
+  border-radius: 3em;
+  background-color: white;
+  color: black;
+  margin: 1.5em;
+  font-size: 22px;
+}
